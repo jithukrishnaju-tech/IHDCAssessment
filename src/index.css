@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #ffffff;
+  }
+}
+.slick-slide > div {
+  margin: 0 14px;
+}
+.slick-prev,
+.slick-next {
+  color: rgb(180, 180, 180) !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(185, 185, 185) !important;
+}
+.text-gradient {
+  background: linear-gradient(45deg, #60d5e5, #012fb8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
